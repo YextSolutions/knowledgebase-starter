@@ -1,0 +1,59 @@
+{
+  "$id": "financeCard",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "body": "This is a sample Finance Card.",
+    "body_richtext_v2": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This is a sample Finance Card.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "c_dateCreated": "2023-04-05",
+    "c_lastUpdateDate": "2023-06-08",
+    "c_ownerEmail": "sreardon@yext.com",
+    "c_parentBoard": [
+      "financeBoard"
+    ],
+    "c_shareCount": "6",
+    "c_status": "PUBLISHED",
+    "c_tags": [
+      "Finance"
+    ],
+    "c_team": "HR",
+    "c_verified": "YES",
+    "externalArticlePostDate": "2023-06-18",
+    "externalArticleUpdateDate": "2023-06-19",
+    "landingPageUrl": "https://knowledge.telescope.yext.com/board/board-benefits?selected\u003da2ed8a6f-c9f6-4a76-b13d-950d36e786d5-knowledge",
+    "name": "Finance Card",
+    "timezone": "Pacific/Easter"
+  },
+  "entityType": "ce_knowledgecard",
+  "labels": []
+}

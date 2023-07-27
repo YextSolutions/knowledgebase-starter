@@ -1,0 +1,16 @@
+{
+  "$id": "c_4560711376075532640",
+  "$schema": "https://schema.yext.com/config/platform/role/v1",
+  "name": "View Core Principles and Key Strategies",
+  "description": "This is the role for users to be able to view core principles and key strategies that live on the Initiatives site.",
+  "permissionIds": [
+    10812,
+    10870,
+    115,
+    131,
+    132,
+    206,
+    330
+  ],
+  "availableToSubAccounts": false
+}

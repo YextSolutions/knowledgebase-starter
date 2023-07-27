@@ -1,0 +1,19 @@
+{
+  "$id": "c_6736344751441378285",
+  "$schema": "https://schema.yext.com/config/platform/role/v1",
+  "name": "Talent Hub Recruiting Role",
+  "description": "Role for recruiting to edit the homepage for the site and view the other entity types in the Talent Hub folder.",
+  "permissionIds": [
+    10273,
+    10317,
+    10606,
+    10948,
+    115,
+    132,
+    332,
+    336,
+    36,
+    92
+  ],
+  "availableToSubAccounts": false
+}

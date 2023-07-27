@@ -1,0 +1,7 @@
+{
+  "$id": "ce_knowledgecard",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "Used to store specific information about a given topic.",
+  "displayName": "Card",
+  "pluralDisplayName": "Cards"
+}

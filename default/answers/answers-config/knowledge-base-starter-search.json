@@ -1,0 +1,129 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "knowledge-base-starter-search",
+  "name": "Knowledge Base Starter Search",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "boards": {
+      "entityTypes": [
+        "ce_knowledgeboard"
+      ],
+      "name": "Boards",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "semanticTextSearch": true
+        },
+        "richTextDescription": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    },
+    "cards": {
+      "displayFields": [
+        "c_parentBoard.c_boardParentFolder.slug",
+        "externalArticleUpdateDate",
+        "c_parentBoard.c_boardParentFolder.id",
+        "c_parentBoard.c_boardParentFolder.name",
+        "c_verified",
+        "c_lastUpdateDate",
+        "body_richtext_v2",
+        "c_parentBoard.c_boardParentFolder.c_parentFolder.slug",
+        "body",
+        "c_parentBoard.id",
+        "c_parentBoard.c_boardParentFolder.c_parentFolder.id",
+        "c_parentBoard.slug",
+        "c_tags",
+        "c_parentBoard.c_boardParentFolder.c_parentFolder.name",
+        "name",
+        "landingPageUrl",
+        "slug",
+        "c_shareCount",
+        "c_parentBoard.name",
+        "c_dateCreated"
+      ],
+      "entityTypes": [
+        "ce_knowledgecard"
+      ],
+      "name": "Cards",
+      "searchableFields": {
+        "body_richtext_v2": {
+          "textSearch": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_parentBoard.name": {
+          "textSearch": true
+        },
+        "name": {
+          "semanticTextSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    },
+    "folders": {
+      "entityTypes": [
+        "ce_knowledgefolder"
+      ],
+      "name": "Folders",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "semanticTextSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    },
+    "kb_autocomplete": {
+      "displayFields": [
+        "c_parentBoard.c_boardParentFolder.slug",
+        "c_parentBoard.slug",
+        "name",
+        "slug",
+        "c_parentBoard.name"
+      ],
+      "entityTypes": [
+        "ce_knowledgecard",
+        "ce_knowledgeboard",
+        "ce_knowledgefolder"
+      ],
+      "name": "Knowledge Base Autocomplete",
+      "searchableFields": {
+        "builtin.entityType": {},
+        "name": {}
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    }
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "popularQueriesBlacklistedRegex": [],
+    "universalPrompts": [],
+    "verticalPrompts": {
+      "boards": [
+        "[[name]]"
+      ],
+      "cards": [
+        "[[name]]"
+      ],
+      "folders": [
+        "[[name]]"
+      ]
+    }
+  }
+}

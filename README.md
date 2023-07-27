@@ -1,1 +1,1 @@
-# knowledgebase-starter
+# starter-knowledge-base

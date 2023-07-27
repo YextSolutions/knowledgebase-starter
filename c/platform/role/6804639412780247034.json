@@ -1,0 +1,13 @@
+{
+  "$id": "c_6804639412780247034",
+  "$schema": "https://schema.yext.com/config/platform/role/v1",
+  "name": "Employee Information Edit",
+  "description": "This role is for employees to manage the fields they can edit.",
+  "permissionIds": [
+    172,
+    178,
+    29,
+    409
+  ],
+  "availableToSubAccounts": false
+}

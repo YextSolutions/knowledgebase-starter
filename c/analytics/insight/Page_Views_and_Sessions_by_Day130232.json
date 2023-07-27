@@ -1,0 +1,24 @@
+{
+  "$id": "c_Page_Views_and_Sessions_by_Day130232",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Page Views and Sessions by Day",
+  "description": "Page Views and Sessions by Day",
+  "query": {
+    "metrics": [
+      "yext/PAGE_VIEWS",
+      "yext/STOREPAGES_UNIQUEVISITORS"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}

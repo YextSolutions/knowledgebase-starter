@@ -1,0 +1,16 @@
+{
+  "$id": "c_2027996936650956829",
+  "$schema": "https://schema.yext.com/config/platform/role/v1",
+  "name": "Card and Board Editing",
+  "description": "This is the role for users to be able to edit cards and boards for the Yext Knowledge Base.",
+  "permissionIds": [
+    10813,
+    10861,
+    10948,
+    11,
+    175,
+    179,
+    26
+  ],
+  "availableToSubAccounts": false
+}

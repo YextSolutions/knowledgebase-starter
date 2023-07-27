@@ -1,0 +1,12 @@
+{
+  "$id": "c_1239556728229124725",
+  "$schema": "https://schema.yext.com/config/platform/role/v1",
+  "name": "View Folder Entities",
+  "description": "This is the role for users to be able to view folders for managing boards and cards in the Yext Knowledge Base.",
+  "permissionIds": [
+    10606,
+    175,
+    179
+  ],
+  "availableToSubAccounts": false
+}

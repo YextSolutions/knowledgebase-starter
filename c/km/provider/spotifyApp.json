@@ -1,0 +1,26 @@
+{
+  "$id": "c_spotifyApp",
+  "$schema": "https://schema.yext.com/config/km/provider/v2",
+  "displayName": "spotify app",
+  "grantType": "AUTHORIZATION_CODE",
+  "clientId": "${{km/provider.c_spotifyApp.clientId}}",
+  "clientSecret": "${{km/provider.c_spotifyApp.clientSecret}}",
+  "allowedScopes": [
+    {
+      "name": "playlist-read-collaborative"
+    }
+  ],
+  "authorizationUrlConfig": {
+    "url": "https://accounts.spotify.com/authorize",
+    "scopeDelimiter": " "
+  },
+  "tokenUrlConfig": {
+    "url": "https://accounts.spotify.com/api/token",
+    "credentialLocation": "HEADER_BASIC_AUTH",
+    "scopeDelimiter": " ",
+    "errorParsingConfig": {
+      "errorCode": "error",
+      "errorDescription": "error_description"
+    }
+  }
+}

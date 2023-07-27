@@ -1,0 +1,25 @@
+{
+  "$id": "marketingBoard",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_boardParentFolder": [
+      "marketingFolder",
+      "parentFolder"
+    ],
+    "c_cards": [
+      "marketingCard"
+    ],
+    "c_ownerEmail": "sreardon@yext.com",
+    "c_status": "PUBLISHED",
+    "c_tags": [
+      "Marketing"
+    ],
+    "name": "Marketing",
+    "richTextDescription": "This is a sample Marketing Board.",
+    "slug": "board/[[entityId]]",
+    "timezone": "Pacific/Easter"
+  },
+  "entityType": "ce_knowledgeboard",
+  "labels": []
+}
