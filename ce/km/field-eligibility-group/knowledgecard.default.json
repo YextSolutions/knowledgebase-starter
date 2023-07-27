@@ -4,7 +4,6 @@
   "name": "Card-default",
   "entityType": "ce_knowledgecard",
   "fields": [
-    "body",
     "body_richtext_v2",
     "c_dateCreated",
     "c_intents",
