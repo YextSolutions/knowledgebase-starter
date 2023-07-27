@@ -9,7 +9,6 @@
     "c_ownerEmail",
     "c_status",
     "c_tags",
-    "richTextDescription",
     "slug",
     "timezone"
   ],
