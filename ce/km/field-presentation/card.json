@@ -1,0 +1,120 @@
+{
+  "$id": "ce_card",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "ce_knowledgecard",
+  "displayName": "Card",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "c_ownerEmail",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "body"
+        },
+        {
+          "id": "c_parentBoard",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "c_verified",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "c_status",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "landingPageUrl"
+        },
+        {
+          "id": "slug"
+        },
+        {
+          "id": "body_richtext_v2",
+          "visibleOnAdd": true
+        }
+      ]
+    },
+    {
+      "displayName": "Card Analytics",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_shareCount"
+        }
+      ]
+    },
+    {
+      "displayName": "Dates",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "externalArticlePostDate"
+        },
+        {
+          "id": "externalArticleUpdateDate"
+        },
+        {
+          "id": "c_lastUpdateDate"
+        },
+        {
+          "id": "c_dateCreated"
+        },
+        {
+          "id": "timezone"
+        }
+      ]
+    },
+    {
+      "displayName": "Search Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_intents"
+        },
+        {
+          "id": "keywords"
+        },
+        {
+          "id": "c_tags",
+          "visibleOnAdd": true
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        },
+        {
+          "id": "c_team"
+        }
+      ]
+    }
+  ]
+}

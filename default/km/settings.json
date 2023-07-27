@@ -3,7 +3,7 @@
   "entityTypeSettings": [
     {
       "entityType": "location",
-      "disabled": true
+      "disabled": false
     },
     {
       "entityType": "healthcareProfessional",
