@@ -25,9 +25,6 @@
           "visibleOnAdd": true
         },
         {
-          "id": "body"
-        },
-        {
           "id": "c_parentBoard",
           "visibleOnAdd": true
         },
