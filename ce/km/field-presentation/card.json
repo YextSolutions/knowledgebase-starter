@@ -42,10 +42,6 @@
         {
           "id": "slug"
         },
-        {
-          "id": "body_richtext_v2",
-          "visibleOnAdd": true
-        }
       ]
     },
     {
