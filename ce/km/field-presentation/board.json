@@ -25,10 +25,6 @@
           "visibleOnAdd": true
         },
         {
-          "id": "richTextDescription",
-          "visibleOnAdd": true
-        },
-        {
           "id": "c_boardParentFolder",
           "visibleOnAdd": true
         },
