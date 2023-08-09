@@ -1,0 +1,20 @@
+{
+  "$id": "ce_knowledgeboard.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Board-default",
+  "entityType": "ce_knowledgeboard",
+  "fields": [
+    "c_boardParentFolder",
+    "c_cards",
+    "c_ownerEmail",
+    "c_status",
+    "c_tags",
+    "richTextDescription",
+    "slug",
+    "timezone"
+  ],
+  "required": [
+    "c_boardParentFolder",
+    "c_ownerEmail"
+  ]
+}

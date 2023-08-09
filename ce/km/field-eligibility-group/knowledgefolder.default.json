@@ -1,0 +1,14 @@
+{
+  "$id": "ce_knowledgefolder.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Folder-default",
+  "entityType": "ce_knowledgefolder",
+  "fields": [
+    "c_boards",
+    "c_parentFolder",
+    "c_status",
+    "c_subfolders",
+    "slug"
+  ],
+  "required": []
+}
