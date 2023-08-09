@@ -1,0 +1,28 @@
+{
+  "$id": "parentFolder",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_boards": [
+      "technologyBoard",
+      "hrBoard",
+      "operationsBoard",
+      "marketingBoard",
+      "benefitsBoard",
+      "financeBoard"
+    ],
+    "c_status": "PUBLISHED",
+    "c_subfolders": [
+      "financeFolder",
+      "hrFolder",
+      "marketingFolder",
+      "operationsFolder",
+      "technologyFolder"
+    ],
+    "name": "Parent Folder",
+    "slug": "folder/[[entityId]]"
+  },
+  "entityType": "ce_knowledgefolder",
+  "folder": "yext/root",
+  "labels": []
+}

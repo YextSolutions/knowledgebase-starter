@@ -1,0 +1,7 @@
+{
+  "$id": "ce_knowledgefolder",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "Used to organize Knowledge Base Boards.",
+  "displayName": "Folder",
+  "pluralDisplayName": "Folders"
+}

@@ -1,0 +1,26 @@
+{
+  "$id": "hrBoard",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_boardParentFolder": [
+      "hrFolder",
+      "parentFolder"
+    ],
+    "c_cards": [
+      "marketingCard",
+      "hrCard",
+      "financeCard"
+    ],
+    "c_ownerEmail": "sreardon@yext.com",
+    "c_status": "PUBLISHED",
+    "c_tags": [
+      "HR"
+    ],
+    "name": "HR",
+    "richTextDescription": "This is a sample HR Board",
+    "slug": "board/[[entityId]]"
+  },
+  "entityType": "ce_knowledgeboard",
+  "labels": []
+}

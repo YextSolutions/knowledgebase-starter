@@ -1,0 +1,27 @@
+{
+  "$id": "c_status",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Status",
+  "group": "GROUP4",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "optionType": {
+      "option": [
+        {
+          "displayName": "Draft",
+          "textValue": "DRAFT"
+        },
+        {
+          "displayName": "Published",
+          "textValue": "PUBLISHED"
+        },
+        {
+          "displayName": "Archived",
+          "textValue": "ARCHIVED"
+        }
+      ]
+    }
+  },
+  "typeId": "option"
+}

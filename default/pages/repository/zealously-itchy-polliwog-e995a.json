@@ -1,0 +1,6 @@
+{
+  "$id": "zealously-itchy-polliwog-e995a",
+  "$schema": "https://schema.yext.com/config/pages/repository/v1",
+  "repoUrl": "github.com/yext-pages/starter-knowledgebase-${{businessId}}",
+  "templateRepo": "github.com/yext-pages/starter-knowledgebase-siteandsearch"
+}
