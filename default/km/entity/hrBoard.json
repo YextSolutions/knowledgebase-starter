@@ -18,7 +18,6 @@
       "HR"
     ],
     "name": "HR",
-    "richTextDescription": "This is a sample HR Board",
     "slug": "board/[[entityId]]"
   },
   "entityType": "ce_knowledgeboard",

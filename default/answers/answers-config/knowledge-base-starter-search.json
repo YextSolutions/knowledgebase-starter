@@ -16,9 +16,6 @@
         },
         "name": {
           "semanticTextSearch": true
-        },
-        "richTextDescription": {
-          "nlpFilter": true
         }
       },
       "sortBys": [],
@@ -34,7 +31,6 @@
         "c_lastUpdateDate",
         "body_richtext_v2",
         "c_parentBoard.c_boardParentFolder.c_parentFolder.slug",
-        "body",
         "c_parentBoard.id",
         "c_parentBoard.c_boardParentFolder.c_parentFolder.id",
         "c_parentBoard.slug",

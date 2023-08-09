@@ -16,7 +16,6 @@
       "Operations"
     ],
     "name": "Operations",
-    "richTextDescription": "This is a sample finance board.",
     "slug": "board/[[entityId]]",
     "timezone": "Pacific/Easter"
   },

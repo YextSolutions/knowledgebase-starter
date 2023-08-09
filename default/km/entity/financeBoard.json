@@ -17,7 +17,6 @@
       "Finance"
     ],
     "name": "Finance",
-    "richTextDescription": "This is a finance board.",
     "slug": "board/[[entityId]]",
     "timezone": "Pacific/Easter"
   },

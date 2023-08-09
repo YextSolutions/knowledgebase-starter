@@ -16,7 +16,6 @@
       "Marketing"
     ],
     "name": "Marketing",
-    "richTextDescription": "This is a sample Marketing Board.",
     "slug": "board/[[entityId]]",
     "timezone": "Pacific/Easter"
   },
